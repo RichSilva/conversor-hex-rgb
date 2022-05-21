@@ -4,7 +4,7 @@
   "description": "<center>\r   <img src=\"https://pa1.narvii.com/6437/e490081cae3ef1c0e1c77936346013e7d93e568e_hq.gif\"></img>\r </center>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./tests/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/caioDesenvMoraes/desafio_conversor_hexa_rgb#readme",
   "devDependencies": {
-    "chain": "^0.2.1",
+    "chai": "^4.3.6",
     "mocha": "^10.0.0"
   }
 }
