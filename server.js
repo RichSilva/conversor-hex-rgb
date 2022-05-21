@@ -10,7 +10,6 @@ app.get("/hexToRgb", (req, res) => {
     let alpha = req.query.alpha
     let rgb = Converter.hexToRGB(`#${hex}`, alpha)
     res.send(`hex: ${hex} to ${rgb}` )
-            
 })
 
 app.get("/rgbToHex", (req, res) => {
@@ -24,3 +23,5 @@ app.get("/rgbToHex", (req, res) => {
 app.listen(port || 3000, () => {
     console.log(`Servidor rodando na porta ${port || 3000}`);
 })
+
+module.exports = { app }

@@ -21,7 +21,7 @@ describe("Convertendo cores hexadecimal para rgb", () => {
 describe("Convertendo cores rgb para hexadecimal", () => {
     it("Sucesso ao converter hexadecimal", () => {
         const valorEsperado = "#000000"
-        const resultado = Converter.RGBtoHex(0, 0, 0)
+        const resultado = Converter.RGBToHex(0, 0, 0)
         assert.equal(resultado, valorEsperado)
     })
 })

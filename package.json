@@ -20,6 +20,7 @@
   "homepage": "https://github.com/caioDesenvMoraes/desafio_conversor_hexa_rgb#readme",
   "devDependencies": {
     "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
     "mocha": "^10.0.0",
     "nodemon": "^2.0.16"
   },
